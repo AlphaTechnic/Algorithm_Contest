@@ -7,13 +7,14 @@ output :
 
 import sys
 from itertools import permutations
+
 input = sys.stdin.readline
 
 chk = [False for _ in range(10000)]
 
+
 def gen_num(order):
     N = len(order)
-
 
     if N == 1:
         for num in order[0]:

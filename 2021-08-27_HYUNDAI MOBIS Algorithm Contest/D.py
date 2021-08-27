@@ -11,6 +11,7 @@ output :
 """
 import sys
 from itertools import combinations
+
 sys.setrecursionlimit(10 ** 7)
 
 input = sys.stdin.readline

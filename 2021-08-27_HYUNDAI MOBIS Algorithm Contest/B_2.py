@@ -76,4 +76,3 @@ def solution(v):
 if __name__ == "__main__":
     v = ["bb"]
     print(solution(v))
-
